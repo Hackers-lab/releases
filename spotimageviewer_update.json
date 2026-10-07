@@ -1,0 +1,132 @@
+{
+  "version": 20.69,
+  "release_notes": "V20.69 \u2014 Modern minimalist light splash screen with progressive completion bar",
+  "download_url": "https://github.com/Hackers-lab/SpotImageViewer/releases/download/v20.69/SpotImageViewer_Setup_v20.69.exe",
+  "installer_url": "https://github.com/Hackers-lab/SpotImageViewer/releases/download/v20.69/SpotImageViewer_Setup_v20.69.exe",
+  "zip_url": "https://github.com/Hackers-lab/SpotImageViewer/releases/download/v20.69/SpotImageViewer_Setup_v20.69.exe",
+  "install_args": "/VERYSILENT /NORESTART",
+  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.69.exe",
+  "sha256": "",
+  "previous_versions": [
+    {
+      "version": 20.68,
+      "release_notes": "V20.68 \u2014 Custom Report Module Overhaul: Streamlined Progressive Disclosure UI, Centralized Payment Normalizer & Optimized Standard Batch Exports:\n\n- Progressive Disclosure UI: Replaced the dense 15-control configuration screen with an intuitive 2-step format selection card flow ('Master & Dues' vs 'Payment & DCRC Ledger').\n- Collapsible Advanced Drawer: Nested optional group subtotals, Excel grand totals, empty row exclusion, and worker threads cleanly out of sight for distraction-free operation.\n- Smart Performance Defaults: Defaulted executive summary and subtotal calculations to off for everyday runs, eliminating unnecessary compute overhead and speeding up standard batch report downloads.\n- Centralized Payment Classification & Normalization: Added core.services.payment_classifier with canonical mode classification and record normalizer across all report operations.\n- Reusable Parsing Utilities: Extracted currency, blank-tolerant float and date parsing methods into core.utils."
+    },
+    {
+      "version": 20.67,
+      "release_notes": "V20.67 \u2014 Generic Scoped Payment Extraction (Amount, Receipt No, Clearing Doc, Date) with Relative Bill Lag Window & Linked Output Column Architecture"
+    },
+    {
+      "version": 20.66,
+      "release_notes": "V20.66 \u2014 Add '\u26a1 Bill & DCRC Lag (Within N Days)' field selector to Advanced Query Builder"
+    },
+    {
+      "version": 20.65,
+      "release_notes": "V20.65 \u2014 Nested Rule Groups with mixed AND/OR logic, Schema-driven Smart Input Selectors & Datepickers, and Strictly Scoped Column Settings"
+    },
+    {
+      "version": 20.64,
+      "release_notes": "V20.64 \u2014 Advanced Query Rule Engine, Column Transformation Pipeline (Value Mapping, Scoped Payment Sums, Formulas), Grouping with Subtotals, and Multi-Sheet Executive Summary Dashboards"
+    },
+    {
+      "version": 20.63,
+      "release_notes": "V20.63 \u2014 Custom Report Studio upgrades: custom column reordering, optional Serial No, exclude empty rows, and multi-row vs single-row summary aggregation"
+    },
+    {
+      "version": 20.62,
+      "release_notes": "V20.62 \u2014 Add Payment & DCRC Ledger report mode to Custom Report Studio with date range, payment type filters, multi-row export, and Excel generation"
+    },
+    {
+      "version": 20.61,
+      "release_notes": "V20.61 \u2014 Add Connection Status and Disconnection Date to Custom Report and Bill Downloader"
+    },
+    {
+      "version": 20.6,
+      "release_notes": "V20.60 \u2014 Add Connection Status and Disconnection Date to Custom Report and Bill Downloader"
+    },
+    {
+      "version": 20.59,
+      "release_notes": "V20.59 \u2014 Custom Report Studio module with dynamic columns, installation number and dues data export, and hardware activation lock"
+    },
+    {
+      "version": 20.58,
+      "release_notes": "V20.58 \u2014 In-memory UI asset encryption, auto-cleanup of legacy executables on update, and PDF Studio"
+    },
+    {
+      "version": 20.57,
+      "release_notes": "V20.57 \u2014 Consumer Bill Downloader, Cryptographic Hardware Access Control & Modern UI Studio:\n\n- Consumer Bill Downloader & Batch Print Studio: High-concurrency multi-account bill PDF fetcher with concurrent Keep-Alive connection pooling, automated dues ledger analysis (OSD, Live LPSC, and dynamic Total Dues), and 1-click batch printing.\n- Auto-Retry Authentication on Logout: Automatically detects and immediately re-submits credentials when the department portal clears an existing session ('successfully logged out'), delivering a seamless 1-click OTP dispatch experience without manual resubmission.\n- Cryptographic Hardware Access Control: Secure, offline-capable HMAC-SHA256 machine hardware licensing engine with unique Machine Request Codes (PC Hardware ID) and admin key generator with PIN protection.\n- Telegram Support Community Integration: Built-in 1-click Telegram support gateway (https://t.me/wbtools_support) with automatic clipboard request code copying for instant access grants.\n- Modern Minimalist 2-Column Studio UI: Completely overhauled workspace layout featuring responsive target accounts panel, granular download mode preferences, custom Excel report header customizer, and sticky ledger table with dark/light glassmorphic styling."
+    },
+    {
+      "version": 20.56,
+      "release_notes": "V20.56 \u2014 Modular Architecture & Instant Native Startup Splash:\n\n- Codebase Modularization: Decomposed large monolithic files (>1,000\u20132,000 lines) into focused domain sub-modules (<300\u2013800 lines each) across Python RPC Bridge, DCRC Exporter, Meter Audit Tool, and Web UI partials.\n- Instant Native Startup Splash: Added independent native startup splash screen that appears in <200ms with progress bar and dynamic status updates, eliminating startup blind spots and white/black screen flicker.\n- Performance & Stability: Enhanced WebView2 lifecycle synchronization, non-blocking splash thread, and automated v20.56 release packaging."
+    },
+    {
+      "version": 20.55,
+      "release_notes": "V20.55 \u2014 Agency PO Billing Generator & Chronological Date Engine:\n\n- Agency PO & DCRC Billing Generator: Automated reconciliation of SAP DCRC events, cash payment registers, and zone allocations.\n- True Chronological Date Engine: Accurate time-based agency mapping across contractual cutoff dates, resolving alphabetical text-comparison date anomalies.\n- Executive Printable Workbooks: Complete print-ready Portrait A4 workbooks with breakup reports, countable consumer lists, and separate pages for 1PH and 3PH.\n- File Dialog & Selector Fix: Proper WinForms and webview filter handling for seamless Excel/CSV file selection."
+    },
+    {
+      "version": 20.54,
+      "release_notes": "V20.54 \u2014 Native Folder Picker, Image Deduplication & OSD Status Accuracy:\n\n- Native Windows Folder Selector: Switched to Windows Explorer native folder browser with top-right search box, path autocomplete, and expandable Network shares.\n- Image Date Deduplication: Automatically filters duplicate images of the same date across different folders so only one image per date is displayed in viewer, filmstrip, and navigation.\n- Accurate OSD Status from PDF: Fixed substring matching bug to properly extract and display actual connection status from WBSEDCL PDFs (Connected, Temp Disconnected, Deemed Disconnected, Disconnected) with corresponding color-coded badges.\n- Excel & CSV Dues Export: Corrected connection status styling and data fidelity in bulk verification reports."
+    },
+    {
+      "version": 20.53,
+      "release_notes": "V20.53 \u2014 Consumer Dues Verification Studio & Streamlined Release Packaging:\n\n- Consumer Dues Studio: Comprehensive Single and Bulk verification engine with parallel batch queries, live arrears check, and rate throttling.\n- Prominent Address Details: Displays consumer address prominently in single check and as a dedicated column in bulk verification lists.\n- Floating Top Notification Banner: Compact, real-time notification bar tracks batch progress and consumer ID counts without taking table space.\n- Spacious Bulk Layout: Expanded full-width and full-height live preview table with one-click Excel (.xlsx) and CSV report generation.\n- Streamlined Distribution: Lightweight, dedicated setup installer without redundant zip archives or unversioned binaries."
+    },
+    {
+      "version": 20.52,
+      "release_notes": "V20.52 \u2014 Smart Folder Sync, Offline Image Fallback & Bridge Hardening:\n\n- PyWebView Bridge Stability: Hardened Python-JS bridge attributes against recursive COM reflection crashes, eliminating 'Not Responding' freezes.\n- Deep Folder Sync & Notifications: Recursive timestamp tracking across all nested subfolders and network shares, notifying you of external image changes instantly.\n- Smart Offline Image Fallback: Automatically falls back to mirror directories when network shares go offline, prioritizing fast local drives (C:\\).\n- Interactive Tariff Editor: Full tariff class and slab rate management directly integrated into Verification Studio.\n- Lean Diagnostics: Stripped temporary logging overhead for a fast, responsive production experience."
+    },
+    {
+      "version": 20.51,
+      "release_notes": "V20.51 \u2014 Hotfix: PyWebView Bridge Race & Instant Search Fix:\n\n- PyWebView Bridge Lifecycle Fix: Fixed race condition where pywebviewready fired before script execution, ensuring initApp() always runs reliably on boot.\n- Search Restoration: Fixed premature bridge bailouts that caused ID, Meter, and Name searches to falsely report 'No matching consumers found'.\n- Tariff Dropdown Population: Restored automatic loading of tariff classes into Bill Calculator and Theft Assessment studios on app startup.\n- Live OSD Table & HUD: Restored immediate Live OSD dues inspection card in the main frame when a consumer is searched.\n- Resilient callAPI(): Added 3.5-second async retry loop ensuring RPC calls never falsely trigger 'PyWebView API not available'.\n- On-Canvas Navigation Chevrons: Added floating, glassmorphic Prev (<) and Next (>) buttons directly flanking the main viewport."
+    },
+    {
+      "version": 20.5,
+      "release_notes": "V20.5 \u2014 High-Concurrency Performance & Zero-Hang Suite:\n\n- Non-Blocking RPC Bridge: All heavy operations are now offloaded to a background thread pool, completely eliminating UI freezes and stalls.\n- Database Compaction: Eliminated fragmented freelist space, shrinking database by 72% down to under 40MB.\n- Accurate Consumer Status Bar: Fixed false 'Consumer data not updated' warnings on startup.\n- Concurrent Thumbnail Loading: Filmstrip and Overview Grid stream thumbnails in parallel batches.\n- Hardware-Throttled Viewport: Zoom and pan mouse handlers throttled with requestAnimationFrame."
+    },
+    {
+      "version": 20.4,
+      "release_notes": "V20.4 \u2014 Enterprise Scalability & 2M+ Instant Startup Suite:\n\n- Zero-Lag Instant Startup: Decoupled database initialization and heavy schema/index verification into non-blocking background threads, ensuring the UI window opens in <200ms even on massive 2M+ image workstations.\n- Schema Version Caching: Subsequent app starts completely bypass repetitive SQLite index scans and PRAGMA table inspections.\n- High-Performance SQLite Pragmas: Enabled 256MB memory-mapped file I/O (PRAGMA mmap_size), 64MB RAM page cache, and memory-backed temp stores for instantaneous queries on multi-gigabyte databases.\n- Sub-Millisecond O(1) Counter: Swapped slow full-table scans for lightning-fast ROWID estimation, preventing disk lockups and 'Not Responding' window freezes."
+    },
+    {
+      "version": 20.31,
+      "release_notes": "V20.31 \u2014 Hotfix: Startup Hang Fix:\n\n- Critical Fix: Eliminated blocking SELECT COUNT(*) queries on the main thread when no cache exists (first run after update on large databases).\n- Non-Blocking Startup: App now shows 0 immediately and updates counts asynchronously via background threads, preventing 'Not Responding' freeze on databases with 175K\u20132M+ images.\n- Cache-First Architecture: Count queries never block the UI thread; heavy SQL only runs in daemon background threads."
+    },
+    {
+      "version": 20.3,
+      "release_notes": "V20.3 \u2014 Performance & Startup Optimization Suite:\n\n- Instant App Startup (2M+ Images Ready): Replaced heavy blocking startup queries with persistent database count caching, eliminating 'Not Responding' freezes and 0-count stalls on high-volume workstations.\n- Asynchronous Count Reconciliation: Recounts and folder sync execute in non-blocking background threads, ensuring the UI is immediately interactive.\n- Frontend Optimistic Hydration: Image counters restore instantly from local storage cache before IPC calls complete, avoiding count flickers.\n- On-Demand Fuzzy Engine: Decoupled heavy memory preparation from application startup while preserving 100% comprehensive candidate discovery and scoring precision."
+    },
+    {
+      "version": 20.2,
+      "release_notes": "V20.2 \u2014 Instant Type-to-Search & Self-Updater Suite:\n\n- Instant Type-to-Search: In Image Viewer workspace, typing any character instantly focuses and enters search without clicking the search bar, streamlining high-volume inspections.\n- In-App Self-Update Suite: Fully integrated one-click update downloading with live progress bar and automated Windows installer launch.\n- Synchronized Version Labels: All workspace documentation, navigation, and settings labels stay continuously synchronized across application restarts.\n- Performance & Stability: Enhanced keyboard event handling and search input responsiveness."
+    },
+    {
+      "version": 20.1,
+      "release_notes": "V20.1 \u2014 Improvements & Fixes:\n\n- Persistent Theme: Dark / Light mode preference is now stored directly in the SQLite database and reliably preserved across application restarts.\n- Refined Live OSD HUD: Stripped 'Customer Care Center' from office names to show clean, concise office location text with hover tooltip; Live connection status is displayed as clean 'Connected' text (no pill); removed redundant PDF button.\n- Responsive Image Previews: Fixed stale preview bug when searching subsequent consumers without spot images; properly clears overview grid and presents clear 'No Spot Images' status card.\n- Stability & Engine Enhancements: Fixed packaging and module loading compatibility."
+    },
+    {
+      "version": 20.0,
+      "release_notes": "V20.0 \u2014 Major UI Transformation & Feature Overhaul:\n\n- Complete Web UI Rewrite: Migrated from legacy Tkinter/CustomTkinter to a modern PyWebView + Edge WebView2 powered single-page app with Tailwind CSS, Lucide icons, and glassmorphic design language.\n- Photoshop-Style Workspace: VS Code inspired icon rail sidebar, collapsible accordion dock panels (Details, Dates, Notes), and full dark/light theme toggle.\n- Interactive Image Viewer: Mouse wheel zoom, click-drag pan, 90\u00b0 rotation, real thumbnail filmstrip with preview-all grid mode.\n- Bill Calculator Studio: Complete WBERC-accurate energy billing with TOD support, government subsidy slabs, meter rent by phase, timely/special/e-payment rebates, and minimum charge floor.\n- Dual-Ledger Theft Assessment: Side-by-side provisional vs final assessment with automatic relief comparison and statutory 25% limit indicator.\n- Batch Fuzzy Lookup Engine: Upload/download Excel-based name+address fuzzy matching with ancestor/relative detection, configurable thresholds, and 1-click OSD check per candidate.\n- Manual Fuzzy Lookup: Type individual rows directly in-app for instant results without file upload.\n- Live WBSEDCL OSD Integration: Real-time Outstanding Statement fetcher with PDF parsing, connection status flags (Live/Deemed/Disconnected), cached portal queries, and floating HUD widget visible in both single-image and grid-preview modes.\n- Low Consumption Audit: Automated flagging of zero/low-consumption consumers from Excel data with session persistence.\n- Tariff Manager: Full CRUD editor for energy slabs, ED slabs, fixed charges, and load factors.\n- Network Folder Management: Multi-folder image source with online/offline status indicators and background re-indexing.\n- Silent Auto-Updater: In-app update checking with one-click silent installer download and execution.\n- Bundled Suite: Includes SpotImageViewerV20.0.exe and imagecheckgui.exe with Windows Setup installer."
+    },
+    {
+      "version": 19.4,
+      "release_notes": "V19.4 Updates:\n\n- Modern Navigation & UI: Refactored with Windows 11 Fluent style sidebar navigation, responsive layout, and unified tool workspace.\n- Dynamic Dark / Light Themes: Coordinated one-click theme switcher across CustomTkinter and TTKBootstrap components.\n- Embedded Workspace Tools: Bill Calculator, Theft Assessment, Low Consumption Audit, and Tariff Editor can now be launched directly in-frame or detached into separate windows.\n- Bill Calculator Modern Date Range Picker: Standardized DD.MM.YYYY format with fast month/year jump controls.\n- Complete Bundled Suite: Includes SpotImageViewerV19.4.exe and imagecheckgui.exe with seamless silent auto-updater."
+    },
+    {
+      "version": 19.3,
+      "release_notes": "V19.3 Updates:\n\n- In-App Self-Updating: Automated installer packaging and silent background update execution with progress dialog.\n- Bill Calculator Modern Date Range Picker: Added modern Month and Year dropdown selectors and fast step navigation for Pro-Rata billing.\n- Standardized Date Format: Pro-Rata dates now default to and strictly format as DD.MM.YYYY.\n- WBERC Subsidy Rule Enforcement: Domestic government relief correctly caps strictly at <= 300 units/month (or proportional pro-rata/quarterly limit).\n- Fast Image Indexing Fix: Network and additional folders dynamically reloaded without stale cache, preserving ultra-fast raw slicing for 1M+ images.\n- Bundled Application Suite: Includes both SpotImageViewerV19.3.exe and imagecheckgui.exe with Windows Setup installer."
+    },
+    {
+      "version": 19.2,
+      "release_notes": "V19.2 Updates:\n\n- Integrated WBSedcl Meter Verification tool (Image Check GUI) directly into the main app Tools menu.\n- Configured multi-executable compilation workflow to bundle both Spot Image Viewer and the Image Check GUI tool.\n- Upgraded application suite release to V19.2."
+    },
+    {
+      "version": 19.1,
+      "release_notes": "V19.1 Updates:\n\n- Added full Consumer Data workflow with fields: Consumer ID, Meter No, Name, Address, Mobile Number, Contractual Load, and Class.\n- Added Name and Mobile search support with proper multi-result handling.\n- Improved Details pane to show complete consumer information in compact wrapped format.\n- Added Update Consumer Data action dialog with two options: Generate Template and Import Consumer Data.\n- Added consumer data template generator (.xlsx) with required headers for easy copy/paste workflows.\n- Search controls UI refined for alignment, spacing consistency, and better button behavior when consumer data is unavailable.\n- Meter/Name/Mobile search controls are now disabled until consumer data is imported, with clear inline guidance."
+    },
+    {
+      "version": 18.4,
+      "release_notes": "V18.4 Updates:\n\n- Image Viewer: Scroll mouse wheel to zoom in/out on images.\n- Image Viewer: Click and drag to pan/move around when zoomed in.\n- Theft Calculator: UI redesigned to match a consistent table-aligned layout.\n- Bug fixes and visual improvements."
+    }
+  ]
+}
