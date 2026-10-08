@@ -1,13 +1,17 @@
 {
-  "version": 20.69,
-  "release_notes": "V20.69 \u2014 Modern minimalist light splash screen with progressive completion bar",
-  "download_url": "https://github.com/Hackers-lab/SpotImageViewer/releases/download/v20.69/SpotImageViewer_Setup_v20.69.exe",
-  "installer_url": "https://github.com/Hackers-lab/SpotImageViewer/releases/download/v20.69/SpotImageViewer_Setup_v20.69.exe",
-  "zip_url": "https://github.com/Hackers-lab/SpotImageViewer/releases/download/v20.69/SpotImageViewer_Setup_v20.69.exe",
+  "version": 20.7,
+  "release_notes": "V20.70 \u2014 Custom report dropdown columns, consumption and meter audit fields, excel sum fix, and session relogin sync",
+  "download_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.70/SpotImageViewer_Setup_v20.70.exe",
+  "installer_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.70/SpotImageViewer_Setup_v20.70.exe",
+  "zip_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.70/SpotImageViewer_Setup_v20.70.exe",
   "install_args": "/VERYSILENT /NORESTART",
-  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.69.exe",
+  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.70.exe",
   "sha256": "",
   "previous_versions": [
+    {
+      "version": 20.69,
+      "release_notes": "V20.69 \u2014 Modern minimalist light splash screen with progressive completion bar"
+    },
     {
       "version": 20.68,
       "release_notes": "V20.68 \u2014 Custom Report Module Overhaul: Streamlined Progressive Disclosure UI, Centralized Payment Normalizer & Optimized Standard Batch Exports:\n\n- Progressive Disclosure UI: Replaced the dense 15-control configuration screen with an intuitive 2-step format selection card flow ('Master & Dues' vs 'Payment & DCRC Ledger').\n- Collapsible Advanced Drawer: Nested optional group subtotals, Excel grand totals, empty row exclusion, and worker threads cleanly out of sight for distraction-free operation.\n- Smart Performance Defaults: Defaulted executive summary and subtotal calculations to off for everyday runs, eliminating unnecessary compute overhead and speeding up standard batch report downloads.\n- Centralized Payment Classification & Normalization: Added core.services.payment_classifier with canonical mode classification and record normalizer across all report operations.\n- Reusable Parsing Utilities: Extracted currency, blank-tolerant float and date parsing methods into core.utils."
