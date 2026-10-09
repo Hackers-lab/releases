@@ -1,13 +1,17 @@
 {
-  "version": 20.7,
-  "release_notes": "V20.70 \u2014 Custom report dropdown columns, consumption and meter audit fields, excel sum fix, and session relogin sync",
-  "download_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.70/SpotImageViewer_Setup_v20.70.exe",
-  "installer_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.70/SpotImageViewer_Setup_v20.70.exe",
-  "zip_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.70/SpotImageViewer_Setup_v20.70.exe",
+  "version": 20.71,
+  "release_notes": "V20.71 \u2014 Add Open DC/RC Fee detection, smart classification, and Master record date filters",
+  "download_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.71/SpotImageViewer_Setup_v20.71.exe",
+  "installer_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.71/SpotImageViewer_Setup_v20.71.exe",
+  "zip_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.71/SpotImageViewer_Setup_v20.71.exe",
   "install_args": "/VERYSILENT /NORESTART",
-  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.70.exe",
+  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.71.exe",
   "sha256": "",
   "previous_versions": [
+    {
+      "version": 20.7,
+      "release_notes": "V20.70 \u2014 Custom report dropdown columns, consumption and meter audit fields, excel sum fix, and session relogin sync"
+    },
     {
       "version": 20.69,
       "release_notes": "V20.69 \u2014 Modern minimalist light splash screen with progressive completion bar"
