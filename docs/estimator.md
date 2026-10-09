@@ -14,7 +14,6 @@
 * **🏗️ 3% Wastage on Iron Materials:** Structural iron elements (Channels, Angles, Flats, Beams, Joists) automatically receive a 3% wastage allowance in live estimation.
 * **🔢 Material Quantity Ceiling Rounding:** Material items are rounded up to the 3rd decimal place (next point) to align with standard requisition rules.
 * **⚡ DTR PVC Cable Circuit Calculation:** Substation 4CX25 cable calculation updated to a base of 8m plus 8m per connected LT circuit with auto-detection and property inspector override.
-* **🎛️ Retractable Panels & Modern Splitter:** One-click toggle buttons (`▲ Retract` / `▼ Expand`) on Properties and Live Estimate panels, auto-restore on canvas item selection, and modern splitter handle with grip indicators.
 
 ## 🔄 Previous Highlights (v10.1)
 
