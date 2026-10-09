@@ -1,6 +1,6 @@
-# ERP Estimate Generator v10.1
+# ERP Estimate Generator v10.3.2
 
-![Version](https://img.shields.io/badge/version-10.1-blue.svg)
+![Version](https://img.shields.io/badge/version-10.3.2-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 ![Framework](https://img.shields.io/badge/framework-PyQt6-brightgreen.svg)
 
@@ -8,13 +8,14 @@
 
 ---
 
-## 🚀 What's New in Version 10.1
+## 🚀 What's New in Version 10.3.2
 
-* **⚡ Modern IEC 60617 DTR Symbol:** Standardized dual-coil transformer symbol with compact side squares for both new and existing DTRs.
-* **🟥 Compact Red Square DP Structure:** High-visibility $11 \times 11\text{ px}$ square poles matching HT pole styling with balanced $28\text{ px}$ center distance.
-* **🔄 Full Orientation Support:** Seamless Horizontal / Vertical alignment for new & existing DP/DTR with auto-rotating stays and center connections.
-* **🏷️ Smart Label Clearance:** Dynamic positioning prevents labels from overlapping vertical structures, earthing, or stays.
-* **🛡️ Dynamic Cradle Guard Iron & Stay Rendering:** Per-span bracket calculations and clean stay rendering behind pole bodies.
+* **⚖️ Flat 50×6 Conversion Factor:** Updated weight conversion factor of Flat 50×6 to **2.4 kg/m** (from 2.5 kg/m) across database records, iron breakup calculators, and Excel exporters.
+* **🏗️ 3% Wastage on Iron Materials:** Structural iron elements (Channels, Angles, Flats, Beams, Joists) automatically receive a 3% wastage allowance in live estimation.
+* **🔢 Material Quantity Ceiling Rounding:** Material items are rounded up to the 3rd decimal place (next point) to align with standard requisition rules.
+* **⚡ DTR PVC Cable Circuit Calculation:** Substation 4CX25 cable calculation updated to a base of 8m plus 8m per connected LT circuit with auto-detection and property inspector override.
+
+## 🔄 Previous Highlights (v10.1)
 
 ## 🔄 Previous Highlights (v9.4)
 
