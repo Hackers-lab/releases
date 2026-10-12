@@ -1,6 +1,6 @@
-# ERP Estimate Generator v10.3.2
+# ERP Estimate Generator v10.3.3
 
-![Version](https://img.shields.io/badge/version-10.3.2-blue.svg)
+![Version](https://img.shields.io/badge/version-10.3.3-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 ![Framework](https://img.shields.io/badge/framework-PyQt6-brightgreen.svg)
 
@@ -8,7 +8,13 @@
 
 ---
 
-## 🚀 What's New in Version 10.3.2
+## 🚀 What's New in Version 10.3.3
+
+* **⚖️ MS Channel 100×50 Weight Factor:** Updated weight conversion of MS Channel 100×50 mm (`CH_100X50`) to **9.2 kg/m** (from 9.8 kg/m) across database records, iron breakup calculators, and Excel exporters.
+* **🔌 Pin Insulators on New HT Intermediate Pole:** Automatically provisions 3 NOS 11 KV Pin Insulators and 3 NOS Fixing Service (`LAB-45`) when a new HT pole is erected between existing HT poles ($\ge 2$ connected HT line spans).
+* **⚡ DTR PVC Cable Feeder Sizing:** Base 8 meters for DTR substation alone plus 8 meters for each connected LT feeder / circuit (1 feeder = 16m, 2 feeders = 24m).
+
+## 🔄 Previous Highlights (v10.3.2)
 
 * **⚖️ Flat 50×6 Conversion Factor:** Updated weight conversion factor of Flat 50×6 to **2.4 kg/m** (from 2.5 kg/m) across database records, iron breakup calculators, and Excel exporters.
 * **🏗️ 3% Wastage on Iron Materials:** Structural iron elements (Channels, Angles, Flats, Beams, Joists) automatically receive a 3% wastage allowance in live estimation.
