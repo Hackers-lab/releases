@@ -1,6 +1,6 @@
-# ERP Estimate Generator v10.3.3
+# ERP Estimate Generator v10.3.8
 
-![Version](https://img.shields.io/badge/version-10.3.3-blue.svg)
+![Version](https://img.shields.io/badge/version-10.3.8-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 ![Framework](https://img.shields.io/badge/framework-PyQt6-brightgreen.svg)
 
@@ -8,7 +8,18 @@
 
 ---
 
-## 🚀 What's New in Version 10.3.3
+## 🚀 What's New in Version 10.3.8
+
+* **📦 DTR Augmentation Return Valuation & Depreciation:** Augmenting existing DTRs now asks for **Serial Status** (Serial vs Non-Serial) and **Age (Years)** when Return Condition is **Use & Healthy (UH01)**.
+* **📜 Verified WBSEDCL Return Codes:** Integrated exact serial (`WH SLNO`) and non-serial material codes from `DAM1.XLS` and `UH01.xls` across 10, 16, 25, 63, and 100 kVA ratings.
+* **📉 Depreciation Formula with 10% Floor:** `New Value - (New Value / 25 × Age)` with minimum 10% value retained even after 25+ years (and ₹0 for DAM1).
+* **📑 Section D Credit Schedule:** Cleanly separates return credit into Section D in Live Estimate, Excel exports, and PDF printouts, showing both **Gross Total** and **Net Estimate Payable** along with detailed calculation notes on the estimate line.
+
+## 🔄 Previous Highlights (v10.3.7)
+
+* **📄 Clean PDF Export Layout:** Removed redundant firm name and application version watermark in drawing footer.
+
+## 🔄 Previous Highlights (v10.3.3)
 
 * **⚖️ MS Channel 100×50 Weight Factor:** Updated weight conversion of MS Channel 100×50 mm (`CH_100X50`) to **9.2 kg/m** (from 9.8 kg/m) across database records, iron breakup calculators, and Excel exporters.
 * **🔌 Pin Insulators on New HT Intermediate Pole:** Automatically provisions 3 NOS 11 KV Pin Insulators and 3 NOS Fixing Service (`LAB-45`) when a new HT pole is erected between existing HT poles ($\ge 2$ connected HT line spans).
