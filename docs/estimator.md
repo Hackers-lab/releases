@@ -1,6 +1,6 @@
-# ERP Estimate Generator v10.3.8
+# ERP Estimate Generator v10.3.9
 
-![Version](https://img.shields.io/badge/version-10.3.8-blue.svg)
+![Version](https://img.shields.io/badge/version-10.3.9-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 ![Framework](https://img.shields.io/badge/framework-PyQt6-brightgreen.svg)
 
@@ -8,7 +8,13 @@
 
 ---
 
-## 🚀 What's New in Version 10.3.8
+## 🚀 What's New in Version 10.3.9
+
+* **⚡ HT Voltage Detection Fix for DTR Connections:** Fixed bug where a line span connecting an existing DP / TP / 4P structure to a DTR was mistakenly classified as an LT span. It is now accurately detected as an HT span.
+* **🔌 DTR Feeder Cable Refinement:** Auto-detects connected LT circuits for the +8 Mtr feeder cable only for ACSR distribution spans. AB Cable distribution spans and direct service drops do not add extra feeder cable (base 8 Mtr DTR cable preserved).
+* **🪢 Lead Wire Labour Schedules (2 Wire):** Added **LAB-84** (`Lead Wire upto 30 Mtrs (2 Wire)` @ ₹410.00) and **LAB-85** (`Lead Wire above 30 Mtr but upto 60 Mtr (2 Wire)` @ ₹475.00) to master rates and rule engine, dynamically allocated based on span length when Cradle Guard is present (alongside LAB-57 >60m).
+
+## 🔄 Previous Highlights (v10.3.8)
 
 * **📦 DTR Augmentation Return Valuation & Depreciation:** Augmenting existing DTRs now asks for **Serial Status** (Serial vs Non-Serial) and **Age (Years)** when Return Condition is **Use & Healthy (UH01)**.
 * **📜 Verified WBSEDCL Return Codes:** Integrated exact serial (`WH SLNO`) and non-serial material codes from `DAM1.XLS` and `UH01.xls` across 10, 16, 25, 63, and 100 kVA ratings.
