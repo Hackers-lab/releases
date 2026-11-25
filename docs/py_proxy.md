@@ -1,4 +1,4 @@
-# Net Split-Tunneler  v4.12
+# Net Split-Tunneler  v4.13.8
 
 A Windows desktop tool for the messy reality of office networks: **share internet without losing the LAN**, **reach the intranet and the internet at the same time**, **flip between saved IP setups in one click**, and run a **full-featured LAN chat** between every PC on the network — all without any server, cloud account, or router config.
 
