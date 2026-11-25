@@ -1,13 +1,17 @@
 {
-  "version": 20.72,
-  "release_notes": "V20.72 \u2014 Fix network folder addition accessibility validation and update Custom Excel report date filters",
-  "download_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.72/SpotImageViewer_Setup_v20.72.exe",
-  "installer_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.72/SpotImageViewer_Setup_v20.72.exe",
-  "zip_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.72/SpotImageViewer_Setup_v20.72.exe",
+  "version": 20.73,
+  "release_notes": "V20.73 \u2014 PDF Studio revamp (real-PDF drag-and-drop multi-signing, image crop/rotate/bg-removal, compression downscaling & live size preview, usage-based sorting, multi-file batching), SpotAI Meter Number search, Custom Report UX overhaul, and global Portal Login modal fix",
+  "download_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.73/SpotImageViewer_Setup_v20.73.exe",
+  "installer_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.73/SpotImageViewer_Setup_v20.73.exe",
+  "zip_url": "https://github.com/Hackers-lab/releases/releases/download/spotimageviewer-v20.73/SpotImageViewer_Setup_v20.73.exe",
   "install_args": "/VERYSILENT /NORESTART",
-  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.72.exe",
+  "launch_exe": "SpotImageViewer\\SpotImageViewerV20.73.exe",
   "sha256": "",
   "previous_versions": [
+    {
+      "version": 20.72,
+      "release_notes": "V20.72 \u2014 Fix network folder addition accessibility validation and update Custom Excel report date filters"
+    },
     {
       "version": 20.71,
       "release_notes": "V20.71 \u2014 Add Open DC/RC Fee detection, smart classification, and Master record date filters"
